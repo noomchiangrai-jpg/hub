@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบงานทั้งหมด - Chiangmai Sakobreed</title>
+    <style>
+        :root {
+            --bg-color: #f4f6f9;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --primary-color: #0066cc;
+            --primary-hover: #004999;
+            --border-color: #e0e0e0;
+        }
+        body {
+            font-family: 'Sarabun', 'Noto Sans Thai', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+            color: var(--primary-color);
+        }
+        p.subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .menu-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .menu-item {
+            display: block;
+            background-color: #ffffff;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            padding: 16px 20px;
+            text-decoration: none;
+            color: var(--text-color);
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+        }
+        .menu-item:hover {
+            border-color: var(--primary-color);
+            background-color: #f0f7ff;
+            color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>ศูนย์รวมระบบงาน</h1>
+        <p class="subtitle">กรุณาเลือก 1 ระบบที่คุณต้องการใช้งาน</p>
+        
+        <div class="menu-list">
+            <!-- ระบบที่ 1 (เปลี่ยนลิงก์ข้างใน href เป็นลิงก์ GitHub Pages ของคุณ) -->
+            <a href="https://noomchiangrai-jpg.github.io/quotation/" class="menu-item">
+                📄 ระบบใบเสนอราคา (Quotation)
+            </a>
+
+            <!-- ระบบที่ 2 -->
+            <a href="https://github.com/noomchiangrai-jpg/laundry-pos" class="menu-item">
+                📦 ชื่อระบบที่ 2 ใบเสร็จรับเงินขนาดเล็ก
+            </a>
+
+            <!-- ระบบที่ 3 -->
+            <a href="https://github.com/noomchiangrai-jpg/cmilaundry" class="menu-item">
+                📊 ชื่อระบบที่ 3 cmilaundry
+            </a>
+        </div>
+
+        <div class="footer">
+            &copy; Chiangmai Sakobreed Co., Ltd.
+        </div>
+    </div>
+
+</body>
+</html>
